@@ -77,6 +77,7 @@ class Student:
     def student_name(self):
         del self.__name
 
+
 std = Student("Ajay")
 print(std.student_name)
 std.student_name = "Hello"

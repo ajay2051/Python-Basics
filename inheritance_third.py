@@ -13,13 +13,15 @@ class Employee:
     def apply_raise(self):
         self.pay = self.pay * self.raise_amount
 
+
 class Developers(Employee):
     def __init__(self, first, last, pay, lang):
         super().__init__(first, last, pay)
         self.lang = lang
 
+
 class Manager(Employee):
-    def __init__(self, first, last, pay, employees = None):
+    def __init__(self, first, last, pay, employees=None):
         super().__init__(first, last, pay)
         if employees is None:
             self.employees = []
@@ -33,8 +35,3 @@ class Manager(Employee):
         def rem_emp(self, emp):
             if self.emp in employees:
                 self.employees.remove(self.emp)
-
-     
-
-
-

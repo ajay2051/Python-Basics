@@ -33,7 +33,6 @@
 # b.f()
 
 
-
 class Root:
     def f(self):
         print("root")
@@ -48,19 +47,18 @@ class A(Root):
 class B(Root):
     def f(self):
         print("B")
-        
 
 
 class C(A, B):
     def f(self):
         print("A, B")
         super().f()
+
 
 c = C()
 c.f()
 
 
-
 class Root:
     def f(self):
         print("root")
@@ -76,13 +74,13 @@ class B(Root):
     def f(self):
         print("B")
         super().f()
-        
 
 
 class C(A, B):
     def f(self):
         print("A, B")
         super().f()
+
 
 c = C()
 c.f()
@@ -103,6 +101,6 @@ class B(Root):
 class C(A, B):
     fx = "C"
 
+
 print(C.__mro__)
 print([c.__name__ for c in C.__mro__])
-    

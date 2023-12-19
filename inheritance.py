@@ -1,6 +1,7 @@
 class Employee:
     num_of_employee = 0
     raise_amount = 1.05
+
     def __init__(self, first, last, pay):
         self.first = first
         self.last = last
@@ -15,8 +16,10 @@ class Employee:
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amount)
 
+
 class Developers(Employee):
     pass
+
 
 emp_1 = Developers('Ajay', 'Thakur', 20000)
 print(emp_1.fullname())

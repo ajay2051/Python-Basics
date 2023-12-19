@@ -9,8 +9,9 @@ class Employee:
 
     @classmethod
     def emp(cls, emp_str):
-        first, last,pay = emp_str.split("_")
+        first, last, pay = emp_str.split("_")
         return cls(first, last, pay)
+
 
 emp_str_1 = "ajay_thakur_25000"
 a = Employee.emp(emp_str_1)

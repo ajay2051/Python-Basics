@@ -14,7 +14,8 @@ def fib(n):
     p, q = 0, 1
     while p < n:
         yield p
-        p, q = q, p+q
+        p, q = q, p + q
+
 
 fib(10)
 for i in fib(10):

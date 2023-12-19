@@ -3,10 +3,9 @@ class A:
 
     def get_count(self):
         return self.__count
-    
+
     def set_count(self, count):
         self.__count = count
-
 
 
 class Widget:
@@ -20,13 +19,12 @@ class Widget:
     @property
     def widget_id(self):
         return self.__count
-    
 
     @staticmethod
     def total_widgets_created(self):
         return Widget.__count
 
-   
+
 class Button(Widget):
     def __init__(self) -> None:
         super().__init__()
@@ -37,4 +35,3 @@ class Button(Widget):
 
     def total_clicks(self):
         return self.__count
-    

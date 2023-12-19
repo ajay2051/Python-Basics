@@ -12,4 +12,4 @@ class OverloadingExample:
 a = OverloadingExample()
 a.add(1, 2, 3)
 
-# Python doesnot support method overloading.
+# Python doesn't support method overloading.

@@ -1,13 +1,16 @@
 class Vehicle:
-    def info():
+    @staticmethod
+    def info(self):
         print("Vehicle Info")
 
 
 class Car(Vehicle):
-    def car_info():
+    @staticmethod
+    def car_info(self):
         print("Car Info")
 
 
 class Truck(Car):
-    def truck_info():
+    @staticmethod
+    def truck_info(self):
         print("Truck Info")

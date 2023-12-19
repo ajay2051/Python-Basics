@@ -19,6 +19,7 @@ class Employee:
     def address(self, place):
         return "{} {}".format(self.first, place)
 
+
 emp_1 = Employee('ajay', 'thakur', 10000)
 print(emp_1.pay)
 emp_1.apply_raise()

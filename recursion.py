@@ -16,6 +16,7 @@ def fb(n):
     else:
         return fb(n - 1) + fb(n - 2)
 
+
 t = 10
 if t <= 0:
     print("Enter positive number")

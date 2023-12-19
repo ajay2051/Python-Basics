@@ -184,3 +184,8 @@ print(details['name']): This statement directly accesses the value associated wi
 print(details.get("name")): This statement uses the get method to retrieve the value associated with the key 'name'. If the key is present, it will print the corresponding value. If the key is not found, it will return None by default (if no default value is specified). So, this approach is safer, especially when you are not certain whether the key exists in the dictionary or not. It avoids raising a KeyError and allows you to provide a default value as a second argument to get if desired.
 
 In summary, the first statement assumes the key is present and may raise a KeyError if it's not, while the second statement uses get and returns None if the key is not found, avoiding a KeyError.
+
+
+# How to Sign and Validate JSON Web Tokens – JWT Tutorial
+
+Ans: https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/
