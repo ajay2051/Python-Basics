@@ -1,2 +1,2 @@
-l = ["1", "2", "5"]
-print(l.pop(2))
+some_list = ["1", "2", "5"]
+print(some_list.pop(2))

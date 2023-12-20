@@ -189,3 +189,11 @@ In summary, the first statement assumes the key is present and may raise a KeyEr
 # How to Sign and Validate JSON Web Tokens – JWT Tutorial
 
 Ans: https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/
+
+# Order of passing parameters in Python Function
+
+    - Positional Arguments
+    - Keyword Arguments
+    - Default Arguments
+    - *args
+    - **kwargs
