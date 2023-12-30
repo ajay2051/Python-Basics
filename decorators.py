@@ -26,7 +26,7 @@ def display_function():
 display_function()
 
 
-# Python Decorator allows to change the the behavior of a function without modifying the function itself and takes
+# Python Decorator allows to change the behavior of a function without modifying the function itself and takes
 # another function as parameter.
 def decorator_function(original_function):
     def wrapper_function(*args, **kwargs):

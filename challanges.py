@@ -34,7 +34,7 @@ def return_capital(words):
     yield x
 
 
-print(next(return_capital("RbhTnjUdscR")))
+print(next(return_capital("RbhTnjUdscR")))  # next return the next item from the iterator.
 
 
 def hello(str):

@@ -197,3 +197,8 @@ Ans: https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/
     - Default Arguments
     - *args
     - **kwargs
+
+# How Python code execution works?
+Python is interpreted language. Python compiler like CPython internally compiles code into bytecode.
+.py -> .pyc
+Compiled code is send to PVM(Python virtual machine) which executes compiled bytecode in machine executable.

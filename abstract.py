@@ -5,7 +5,7 @@ class Shape(ABC):
     """Object cannot be created from Abstract Class"""
 
     @abstractmethod
-    def print_area(self):  # Abstract Function does not return any thing.
+    def print_area(self):  # Abstract Function does not return anything.
         pass
 
 

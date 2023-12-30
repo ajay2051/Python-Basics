@@ -1,6 +1,6 @@
 # Python sort()¶
 
-# This function modifies the list in-place which means it modifies the original list and it has no return value. This
+# This function modifies the list in-place which means it modifies the original list, and it has no return value. This
 # method can be used only with lists as it is of the list class, it can not sort any other sequence like tuple,
 # etc. This will sort the elements in ascending order by default.
 

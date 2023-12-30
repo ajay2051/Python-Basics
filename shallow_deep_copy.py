@@ -12,6 +12,7 @@ class Company:
         self.boss = boss
         self.employee = employee
 
+
 p1 = Person("Alex", 25)
 p2 = Person("Ajay", 27)
 
