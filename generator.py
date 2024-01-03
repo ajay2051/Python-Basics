@@ -8,6 +8,8 @@
 #     print(num)
 
 # A generator is a function that returns an object(iterator) which we can iterate over.
+# Generators are useful when we want to produce a large sequence of values,
+# but we don't want to store all of them in memory at once.
 
 
 def fib(n):

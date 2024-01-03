@@ -125,6 +125,7 @@ GIL is a lock that allows only one thread to hold the control of the Python Inte
 # Garbage Collection
 
 Python deletes unwanted objects(built-in types or class instances) automatically to free memory space. The process by which Python periodically frees and reclaims blocks of memory that no longer are in use is called Garbage Collection.
+_**Mark and Sweep Algorithm**_ is used for Garbage Collection. 
 
 # self
 
@@ -202,3 +203,10 @@ Ans: https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/
 Python is interpreted language. Python compiler like CPython internally compiles code into bytecode.
 .py -> .pyc
 Compiled code is send to PVM(Python virtual machine) which executes compiled bytecode in machine executable.
+
+# Git Rebase: 
+Rebasing is the process of moving or combining a sequence of **commits** to a new base commit.
+
+# Git Fetch
+The git fetch command downloads commits, files, and refs from a remote repository into your local repo, 
+but it doesn't integrate any of this new data into your working files. 
