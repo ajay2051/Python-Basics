@@ -1,5 +1,4 @@
-# A closure is a function whose returns value depends on the value of one or more variables which are declared
-# outside the function.
+# A closure is a function whose returns value depends on the value of one or more variables which are declared outside the function.
 
 
 def outer_function(text):

@@ -26,8 +26,7 @@ def display_function():
 display_function()
 
 
-# Python Decorator allows to change the behavior of a function without modifying the function itself and takes
-# another function as parameter.
+# Python Decorator allows to change the behavior of a function without modifying the function itself and takes another function as parameter.
 def decorator_function(original_function):
     def wrapper_function(*args, **kwargs):
         print('Start....!')
@@ -66,3 +65,31 @@ def display(name):
 
 
 display('Ajay')
+
+
+def decorator_function(original_function):
+    """This is the decorator function which decorates other functions"""
+
+    def wrapper_function(*args, **kwargs):
+        print("Start.....")
+        result = original_function(*args, **kwargs)
+        print(result)
+        print("End......")
+        print("Start Again........")
+        result = original_function(*args, **kwargs)
+        print(result)
+        print("Ended...........")
+        return result  # Return the result obtained from the original function
+
+    return wrapper_function
+
+
+@decorator_function
+def add_num(a, b):
+    """This function add two numbers"""
+    return a + b
+
+
+results = add_num(2, 3)
+print(f"The sum is {results}")
+
