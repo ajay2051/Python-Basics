@@ -210,3 +210,62 @@ Rebasing is the process of moving or combining a sequence of **commits** to a ne
 # Git Fetch
 The git fetch command downloads commits, files, and refs from a remote repository into your local repo, 
 but it doesn't integrate any of this new data into your working files. 
+
+
+# Concurrency vs Parallelism
+Concurrency:
+- Multiple tasks can be executed in an overlapping time period. 
+- Tasks may start before preceding ones complete, without simultaneous running.
+- CPU adjusts time slices per task and switches contexts.
+Concurrency aims to maximize CPU usage by minimizing its idle time.
+
+Parallelism:
+- Parallelism is the ability to execute independent tasks of a program in the same instant of time. 
+- These tasks can run simultaneously on another processor core, another processor, or an entirely different computer that can be a distributed system. 
+
+https://media.licdn.com/dms/image/D5622AQGndnnKRTLZqg/feedshare-shrink_800/0/1712866639525?e=1717027200&v=beta&t=UB18T0Jyh9lODAtVFXTY6ZJt32EUCHLm6TwKAQBacUY
+
+# Forward Proxy vs Reverse Proxy
+
+Forward Proxy:
+
+Introduction
+    A client proxy, also known as a forward proxy or simply a proxy, is a server that acts on behalf of client devices (e.g., computers, smartphones) to make requests to destination servers (e.g., web servers, external services).
+    It sits between client devices and the internet, forwarding client requests to destination servers.
+
+Use cases:
+    Enhancing privacy
+    Access control and content filtering
+    Monitor web activity
+    Log client's requests/response
+
+Tools:
+    Squid
+    Privoxy
+    VPN services
+
+Reverse Proxy:
+
+Introduction
+    A server proxy, also known as a reverse proxy, is a server that sits between internet and destination servers (e.g., web servers, external services) to handle incoming requests on behalf of those destination servers.
+    It forwards client requests to the appropriate destination server based on predefined routing rules.
+
+Use cases:
+    Load Balancing
+    Web Application Firewall (WAF)
+    Protection from DDoS attacks
+    Cache frequently accessed data
+    SSL encryption/decryption
+
+Tools:
+    Nginx
+    Apache HTTP Server (when configured as a reverse proxy)
+    HAProxy
+    CDN (Content Delivery Network) services
+
+https://media.licdn.com/dms/image/D4D12AQH_7-KhLM7Sog/article-cover_image-shrink_720_1280/0/1693579146959?e=1719446400&v=beta&t=6JFTV_VGFmkAHRdfJdSYew3NLKoHDjwYbPlDGgqyKtE
+
+A reverse proxy accepts a request from a client, forwards it to a server that can fulfill it, and returns the server’s response to the client.
+A load balancer distributes incoming client requests among a group of servers, in each case returning the response from the selected server to the appropriate client.
+
+Load balancers are most commonly deployed when a site needs multiple servers because the volume of requests is too much for a single server to handle efficiently. Deploying multiple servers also eliminates a single point of failure, making the website more reliable. Most commonly, the servers all host the same content, and the load balancer’s job is to distribute the workload in a way that makes the best use of each server’s capacity, prevents overload on any server, and results in the fastest possible response to the client.
