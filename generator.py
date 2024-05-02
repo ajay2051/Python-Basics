@@ -22,3 +22,19 @@ def fib(n):
 fib(10)
 for i in fib(10):
     print(i)
+
+
+def fib(n):
+    p, q = 0, 1
+    sum = 0
+    while p < n:
+        yield p
+        sum += p
+        p, q = q, p + q
+    yield sum
+
+n = 23
+fib_seq = fib(n)
+print("Fibonacci numbers up to", n, "are:")
+for i in fib_seq:
+    print(i, end=" ")

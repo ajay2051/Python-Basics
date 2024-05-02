@@ -269,3 +269,39 @@ A reverse proxy accepts a request from a client, forwards it to a server that ca
 A load balancer distributes incoming client requests among a group of servers, in each case returning the response from the selected server to the appropriate client.
 
 Load balancers are most commonly deployed when a site needs multiple servers because the volume of requests is too much for a single server to handle efficiently. Deploying multiple servers also eliminates a single point of failure, making the website more reliable. Most commonly, the servers all host the same content, and the load balancer’s job is to distribute the workload in a way that makes the best use of each server’s capacity, prevents overload on any server, and results in the fastest possible response to the client.
+
+# Database Normalization
+
+Database normalization is a database design principle for organizing data in an organized and consistent way.
+
+It helps you avoid redundancy and maintain the integrity of the database. It also helps you eliminate undesirable characteristics associated with insertion, deletion, and updating.
+
+The main purpose of database normalization is to avoid complexities, eliminate duplicates, and organize data in a consistent way. In normalization, the data is divided into several tables linked together with relationships.
+
+Database administrators are able to achieve these relationships by using primary keys, foreign keys, and composite keys.
+
+The First Normal Form – 1NF
+
+For a table to be in the first normal form, it must meet the following criteria:
+
+- A single cell must not hold more than one value (atomicity)
+- There must be a primary key for identification
+- No duplicated rows or columns
+- Each column must have only one value for each row in the table
+
+The Second Normal Form – 2NF
+
+- The 1NF only eliminates repeating groups, not redundancy. That’s why there is 2NF.
+- A table is said to be in 2NF if it meets the following criteria:
+- It’s already in 1NF
+has no partial dependency. That is, all non-key attributes are fully dependent on a primary key.
+
+The Third Normal Form – 3NF
+
+- When a table is in 2NF, it eliminates repeating groups and redundancy, but it does not eliminate transitive partial dependency.
+
+- This means a non-prime attribute (an attribute that is not part of the candidate’s key) is dependent on another non-prime attribute. This is what the third normal form (3NF) eliminates.
+
+- So, for a table to be in 3NF, it must:
+be in 2NF
+have no transitive partial dependency.
