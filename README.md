@@ -346,3 +346,10 @@ be in 2NF
 have no transitive partial dependency.
 
 https://www.freecodecamp.org/news/database-normalization-1nf-2nf-3nf-table-examples/
+
+# Why is redis so fast?
+https://blog.bytebytego.com/p/why-is-redis-so-fast
+
+# Stored Procedure
+https://www.cherryservers.com/blog/create-postgresql-stored-procedure#:~:text=Postgres%20stored%20procedures%20are%20routines,execute%20on%20the%20database%20itself.
+https://www.postgresqltutorial.com/postgresql-plpgsql/postgresql-create-procedure/
