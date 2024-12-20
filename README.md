@@ -356,3 +356,6 @@ https://www.postgresqltutorial.com/postgresql-plpgsql/postgresql-create-procedur
 
 # Multithreading vs Multiprocessing
 https://towardsdatascience.com/multithreading-vs-multiprocessing-in-python-3afeb73e105f
+
+# How to make API secure
+https://www.practical-devsecops.com/what-is-rest-api-security/
