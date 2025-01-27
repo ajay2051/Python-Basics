@@ -1,3 +1,5 @@
+# Note: All string methods returns new values. They do not change the original string.
+
 course = 'Python for beginners'
 print(course[-2:])
 print(course[0:])

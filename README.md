@@ -359,3 +359,12 @@ https://towardsdatascience.com/multithreading-vs-multiprocessing-in-python-3afeb
 
 # How to make API secure
 https://www.practical-devsecops.com/what-is-rest-api-security/
+
+# How to fix circular imports
+https://www.geeksforgeeks.org/python-circular-imports/
+
+# How to profile Python code to identify performance bottlenecks
+https://realpython.com/python-profiling/
+
+# Difference between yield and return
+https://www.geeksforgeeks.org/difference-between-yield-and-return-in-python/
