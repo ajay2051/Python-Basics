@@ -368,3 +368,6 @@ https://realpython.com/python-profiling/
 
 # Difference between yield and return
 https://www.geeksforgeeks.org/difference-between-yield-and-return-in-python/
+
+# Difference between function and method
+https://www.geeksforgeeks.org/difference-method-function-python/
