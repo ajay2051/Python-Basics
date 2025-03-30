@@ -371,3 +371,7 @@ https://www.geeksforgeeks.org/difference-between-yield-and-return-in-python/
 
 # Difference between function and method
 https://www.geeksforgeeks.org/difference-method-function-python/
+
+# Postgresql raw query optimization
+https://dev.to/jacobandrewsky/improving-performance-of-postgresql-queries-1h7o
+https://claude.ai/chat/69629fbd-295b-4d86-a372-9d8558e90dd6
