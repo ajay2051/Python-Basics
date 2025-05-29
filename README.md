@@ -68,11 +68,11 @@ User-defined Function
 
 # Objects
 
-The object is an entity that has a state and behaviour with it.
+The object is an entity that has a state and behavior with it.
 
 An object consists of:
 State: It is represented by attributes of an object. It also reflects the properties of an object.
-Behaviour: It is represented by methods of an object. It also reflects the response of an object to other objects.
+Behavior: It is represented by methods of an object. It also reflects the response of an object to other objects.
 Identity: It gives a unique name to an object and enables one object to interact with other objects.
 
 # Improve The Performance of Web
@@ -375,3 +375,42 @@ https://www.geeksforgeeks.org/difference-method-function-python/
 # Postgresql raw query optimization
 https://dev.to/jacobandrewsky/improving-performance-of-postgresql-queries-1h7o
 https://claude.ai/chat/69629fbd-295b-4d86-a372-9d8558e90dd6
+
+# Gunicorn Workers
+https://medium.com/@mailtomugeshs/optimizing-gunicorn-balancing-threads-workers-and-connection-pools-for-better-performance-fbc682f731c4
+
+# Race Condition in MultiThreading
+https://medium.com/@sanyam233/what-are-race-conditions-in-multi-threading-lets-discuss-2a760f1bd805
+
+# Django DB Pooling
+https://medium.com/@shreyasbulbule007/database-pooling-in-django-and-node-js-for-postgresql-db-why-what-and-how-a27bba7d17c4
+Django database pooling refers to the practice of maintaining a pool of database connections that can be reused across multiple requests, 
+rather than creating and closing a new connection for each database operation. This significantly improves performance and reduces database
+server load.
+
+How Django Handles Database Connections
+
+Default Behavior (Without Pooling):
+    Django creates a new database connection for each request
+    The connection is closed at the end of the request
+    This creates overhead from constant connection establishment/teardown
+
+
+With Connection Pooling:
+    A pool of connections is maintained in memory
+    Connections are reused across multiple requests
+    Connections are only created when the pool is empty
+    Idle connections are kept alive for future use
+
+
+Benefits of Database Pooling
+Performance Benefits:
+    Reduced connection establishment overhead
+    Lower latency for database operations
+    Better resource utilization
+    Improved application responsiveness
+
+Scalability Benefits:
+    Handles more concurrent users
+    Reduces database server load
+    Better resource management under high traffic
