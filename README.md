@@ -253,8 +253,6 @@ Parallelism:
 - These tasks can run simultaneously on another processor core, another processor, or an entirely different computer that can be a distributed 
 system. 
 
-https://media.licdn.com/dms/image/D5622AQGndnnKRTLZqg/feedshare-shrink_800/0/1712866639525?e=1717027200&v=beta&t=UB18T0Jyh9lODAtVFXTY6ZJt32EUCHLm6TwKAQBacUY
-
 # Forward Proxy vs Reverse Proxy
 
 Forward Proxy:
@@ -414,3 +412,48 @@ Scalability Benefits:
     Handles more concurrent users
     Reduces database server load
     Better resource management under high traffic
+
+
+# System Design
+
+Latency Vs Throughput: https://www.systemdesignhandbook.com/blog/difference-between-latency-and-throughput-in-system-design/
+
+Horizontal and Vertical Scaling: https://www.geeksforgeeks.org/system-design/system-design-horizontal-and-vertical-scaling/
+
+Concurrency Vs Parallelism: https://algomaster.io/learn/concurrency-interview/concurrency-vs-parallelism
+
+Database Indexing: https://dev.to/mspilari/understanding-indexing-in-postgresql-pros-cons-and-best-practices-41p4
+
+Avoid N + 1 queries using select_related, prefetch_related
+
+Establish Connection Pooling
+
+Query Optimization
+
+Use EXPALIN/EXPLAIN ANALYZE
+
+Use JOIN instead of subquery
+
+Caching
+
+Reduce Bundled Package
+
+Use CDNs, HTTPS/2, Request caching
+
+Use Async Processing
+
+Enable Compression(GZip)
+
+Reduce Payload Size, Incompetency Key
+
+Use Websockets, SSE(Server Side Events)
+
+For Message Queue, Redis, Celery
+
+Auto Scaling for Performance: https://www.vmware.com/topics/auto-scaling
+
+Load balancer
+
+Geo Distributed Deployment: https://www.qodequay.com/geo-distributed-cloud-architecture?srsltid=AfmBOopo4u-1C60pWAt3Mws1hcOtqHFT_6tNcxGqWiE-59qAigNWobsV
+
+Use Microservice
