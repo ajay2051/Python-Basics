@@ -352,6 +352,10 @@ https://www.geeksforgeeks.org/python/django-values-list-vs-values-1/
 https://www.geeksforgeeks.org/python/aggregate-vs-annotate-in-django/
 https://mehedi-khan.medium.com/django-aggregate-vs-annotate-with-example-4d0b1f786e4f
 
+# Q Expression and F Expression in Django
+https://leapcell.io/blog/mastering-django-orm-for-advanced-queries-with-f-and-q-objects
+https://medium.com/@abdullah.saalim/mastering-f-and-q-expressions-in-django-the-ultimate-guide-720fa04ea3cb
+
 # Why is redis so fast?
 https://blog.bytebytego.com/p/why-is-redis-so-fast
 
