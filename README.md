@@ -345,6 +345,13 @@ have no transitive partial dependency.
 
 https://www.freecodecamp.org/news/database-normalization-1nf-2nf-3nf-table-examples/
 
+# Values_list and values in django
+https://www.geeksforgeeks.org/python/django-values-list-vs-values-1/
+
+# Annotate Aggregate in Django
+https://www.geeksforgeeks.org/python/aggregate-vs-annotate-in-django/
+https://mehedi-khan.medium.com/django-aggregate-vs-annotate-with-example-4d0b1f786e4f
+
 # Why is redis so fast?
 https://blog.bytebytego.com/p/why-is-redis-so-fast
 
