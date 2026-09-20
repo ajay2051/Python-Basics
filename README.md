@@ -391,6 +391,14 @@ https://medium.com/@mailtomugeshs/optimizing-gunicorn-balancing-threads-workers-
 # Race Condition in MultiThreading
 https://medium.com/@sanyam233/what-are-race-conditions-in-multi-threading-lets-discuss-2a760f1bd805
 
+# Indexing
+The basic idea
+A Postgres table (the heap) stores rows in unordered 8 KB pages. Without an index, finding WHERE email = 'a@b.com' means scanning every page (a sequential scan). 
+An index is a separate on-disk structure that maps column values to the physical location of matching rows, so Postgres can jump straight to them.
+That location is a TID (tuple ID): a (page number, item offset) pair. An index lookup finds the TID, then Postgres fetches that row from the heap.
+https://medium.com/@vedanshdwivedi0/understanding-indexes-in-postgresql-92e917d3136b
+https://claude.ai/chat/a117a557-f0ae-4948-bc62-777d9c353709
+
 # Django DB Pooling
 https://medium.com/@shreyasbulbule007/database-pooling-in-django-and-node-js-for-postgresql-db-why-what-and-how-a27bba7d17c4
 Django database pooling refers to the practice of maintaining a pool of database connections that can be reused across multiple requests, 
