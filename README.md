@@ -391,6 +391,9 @@ https://medium.com/@mailtomugeshs/optimizing-gunicorn-balancing-threads-workers-
 # Race Condition in MultiThreading
 https://medium.com/@sanyam233/what-are-race-conditions-in-multi-threading-lets-discuss-2a760f1bd805
 
+# Difference between AbstractUser and AbstractBaseUser
+https://dev.to/itsweshy/abstractuser-or-abstractbaseuser-1bf7
+
 # Indexing
 The basic idea
 A Postgres table (the heap) stores rows in unordered 8 KB pages. Without an index, finding WHERE email = 'a@b.com' means scanning every page (a sequential scan). 
