@@ -394,6 +394,10 @@ https://medium.com/@sanyam233/what-are-race-conditions-in-multi-threading-lets-d
 # Difference between AbstractUser and AbstractBaseUser
 https://dev.to/itsweshy/abstractuser-or-abstractbaseuser-1bf7
 
+# Select for Update in Django
+https://dev.to/devtosxn/handling-concurrency-in-django-with-selectforupdate-24e2
+https://medium.com/@alexandre.laplante/djangos-select-for-update-with-examples-and-tests-caff09414766
+
 # Indexing
 The basic idea
 A Postgres table (the heap) stores rows in unordered 8 KB pages. Without an index, finding WHERE email = 'a@b.com' means scanning every page (a sequential scan). 
